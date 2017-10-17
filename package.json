@@ -5,6 +5,10 @@
   "author": "Garth Poitras <garth22@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpoitch/strincrement.git"
+  },
   "scripts": {
     "lint": "standard --fix",
     "test": "npm run lint && mocha tests.js"
@@ -12,7 +16,8 @@
   "keywords": [
     "string",
     "increment",
-    "guid"
+    "guid",
+    "classnames"
   ],
   "devDependencies": {
     "mocha": "^4.0.1",
