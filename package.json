@@ -1,11 +1,13 @@
 {
   "name": "strincrement",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "String incrementing id generator",
   "author": "Garth Poitras <garth22@gmail.com>",
   "license": "MIT",
   "main": "index.js",
-  "files": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gpoitch/strincrement.git"
