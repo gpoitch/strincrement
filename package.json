@@ -1,6 +1,6 @@
 {
   "name": "strincrement",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "String incrementing id generator",
   "author": "Garth Poitras <garth22@gmail.com>",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "classnames"
   ],
   "devDependencies": {
-    "mocha": "^5.2.0",
-    "standard": "^11.0.1"
+    "mocha": "^6.1.4",
+    "standard": "^12.0.1"
   }
 }

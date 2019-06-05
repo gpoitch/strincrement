@@ -12,11 +12,11 @@ describe('Strincrement', () => {
       ids.push(strincrement())
     }
 
-    assert.equal(ids.length, count)
-    assert.equal(new Set(ids).size, count)
-    assert.equal(ids[0], 'a')
-    assert.equal(ids[52], 'aa')
-    assert.equal(ids[500], 'iG')
+    assert.strictEqual(ids.length, count)
+    assert.strictEqual(new Set(ids).size, count)
+    assert.strictEqual(ids[0], 'a')
+    assert.strictEqual(ids[52], 'aa')
+    assert.strictEqual(ids[500], 'iG')
   })
 
   it('can use a custom alphabet', () => {
@@ -27,10 +27,10 @@ describe('Strincrement', () => {
       ids.push(strincrement())
     }
 
-    assert.equal(ids.length, count)
-    assert.equal(new Set(ids).size, count)
-    assert.equal(ids[0], 'x')
-    assert.equal(ids[3], 'xx')
-    assert.equal(ids[500], 'xyzxxz')
+    assert.strictEqual(ids.length, count)
+    assert.strictEqual(new Set(ids).size, count)
+    assert.strictEqual(ids[0], 'x')
+    assert.strictEqual(ids[3], 'xx')
+    assert.strictEqual(ids[500], 'xyzxxz')
   })
 })
