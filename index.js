@@ -1,6 +1,6 @@
 const ALPHABET_DEFAULT = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-module.exports = function Strincrement (alphabet) {
+module.exports = function Strincrement(alphabet) {
   const chars = (alphabet || ALPHABET_DEFAULT).split('')
   const charLength = chars.length
   const toInt = Math.floor

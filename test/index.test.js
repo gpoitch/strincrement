@@ -1,14 +1,12 @@
-const Strincrement = require('./')
+const Strincrement = require('../')
 const assert = require('assert')
-
-/* global describe, it */
 
 describe('Strincrement', () => {
   it('generates unique values', () => {
     const strincrement = Strincrement()
     const ids = []
     const count = 5000
-    for (var i = 0; i < count; i++) {
+    for (let i = 0; i < count; i++) {
       ids.push(strincrement())
     }
 
@@ -23,7 +21,7 @@ describe('Strincrement', () => {
     const strincrement = Strincrement('xyz')
     const ids = []
     const count = 5000
-    for (var i = 0; i < count; i++) {
+    for (let i = 0; i < count; i++) {
       ids.push(strincrement())
     }
 

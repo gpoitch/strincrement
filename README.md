@@ -1,8 +1,9 @@
 # Strincrement
 
-String incrementing id generator.  Given an alphabet, generates unique sequential ids.  
+String incrementing id generator. Given an alphabet, generates unique sequential ids.
 
 Use cases:
+
 - Non-numeric auto-incrementing ids
 - Spreadsheet column naming
 - CSS classname minification
